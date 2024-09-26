@@ -1,0 +1,23 @@
+2-
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro soma
+		inteiro media
+		inteiro numero
+
+		para(inteiro i=0 ; i < 5 ; i++){
+			escreva ("Informe um número (", i+1, ")")
+			leia(numero)
+
+			 soma = soma + numero
+		}
+
+		media = soma / 5
+
+		escreva ("A soma é ",soma,"\n")
+		escreva ("A média é ",media,"\n")
+	}
+}
